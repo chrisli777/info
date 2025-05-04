@@ -1,0 +1,66 @@
+.checkin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+    width: 100vw; 
+    padding: 40px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .checkin-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .mood-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .mood-button {
+    font-size: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ebedf1;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+  }
+  
+  .primary-checkin-button,
+  .final-checkin-button {
+    margin: 20px 0;
+  }
+  
+  .primary-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .support-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .secondary-button {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  
